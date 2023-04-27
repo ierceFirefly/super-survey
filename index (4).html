@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Admission Form  </title>
+    <link rel="stylesheet" href=style.css>
+    <style>
+    .input20{
+        font-family: monospace;
+        font-weight: lighter;
+        text-transform: capitalize;
+        font-style: italic;
+        font-size: larger;
+        text-align: center;
+        font-size: xx-large;
+      }
+      .class4{
+        font-weight: lighter;
+        text-transform: capitalize;
+        font-style: italic; 
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-decoration: underline;
+      }
+      .input1{
+        text-align: center;
+        text-transform: capitalize;
+        font-style: italic; 
+        font-family: 'Times New Roman', Times, serif;
+      }
+      </style>
+</head>
+<body style="background-image: linear-gradient(to right,blue,aqua);">
+    <h3 class="class4" style="text-align: center;">the survey is finish.but we may need some information about you</h3><br>
+    <h3 style="text-align: center;" class="class4">name</h3>
+    <div class="input1">
+        <input type="text" name="first name" id="first name" placeholder="First name">
+        <input type="text" name="last name" id="last name" placeholder="Last name"> 
+    </div><br>
+    <h3 style="text-align: center;" class="class4">address</h3>
+    <div class="input1">
+        <input style="width: 500px;" type="text" name="street address" id="street address" placeholder="Street Address"><br><br><br>
+        <input type="text" name="city" id="city" placeholder="City">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="region" id="region" placeholder="Region"><br><br>
+        <input type="text" name="postal/zip code" id="postal/zip code" placeholder="Postal / Zip Code">&nbsp;&nbsp;&nbsp;&nbsp;
+        <select style="width: 200px;" name="country" id="country">
+            <option value="bangladesh">Bangladesh</option>
+            <option value="india">India</option>
+            <option value="america">America</option>
+            <option value="canada">Canada</option>
+            <option value="Australia">Australia</option>
+            <option value="France">France</option>
+            <option value="Switzerland">Switzerland</option>
+            <option value="Spain">Spain</option>
+            <option value="Italy">Italy</option>
+            <option value="New Zealand">New Zealand</option>
+            <option value="Japan">Japan</option>
+        </select><br>
+        <h3  style="text-align: center;" class="class4">Email address/password</h3><br>
+        <div style="text-align: center;" class="input1">
+            <input type="email" name="email" id="email" placeholder="Email">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="password" name="password" id="password" placeholder="Password">
+        </div><br>
+        <div>
+            <input type="submit" name="submit" id="submit">
+            <input type="reset" name="reset" id="reset">
+        </div>
+
+        
+        
+
+    </div>
+    
+</body>
